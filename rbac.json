@@ -15,7 +15,8 @@
                     "Microsoft.ServiceBus/namespaces/*",
                     "Microsoft.Sql/servers/databases/*",
                     "Microsoft.Storage/storageAccounts/*",
-                    "Microsoft.Web/sites/*"
+                    "Microsoft.Web/sites/*",
+                    "Microsoft.Sql/servers/*"
                 ],
     "NotActions":  [
 
