@@ -75,6 +75,20 @@
             }
 			]
 		  },
+		    {
+        "allof": [
+          {
+            "field": "type",
+            "equals": "Microsoft.SQL/servers/databases"
+          },
+          {
+            "not": {
+              "field": "Microsoft.Sql/servers/databases/requestedServiceObjectiveName",
+              "in": [ "Basic", "System2" ]
+            }
+          }
+        ]
+      },
             {
 			"allOf": [
 			  {
