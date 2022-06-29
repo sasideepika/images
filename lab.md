@@ -59,7 +59,7 @@
 
    ![](/images/img003.png)
 
- > Note : You can find the details for the username and password under **Environment Details** tab.
+   > Note : You can find the details for the username and password under **Environment Details** tab.
 
 1. You should now be looking at the Cover page of the Power BI report template you opened.
  
