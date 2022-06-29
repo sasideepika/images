@@ -9,6 +9,7 @@
                     "Microsoft.CognitiveServices/accounts/*",
                     "microsoft.insights/actiongroups/*",
                     "Microsoft.Insights/components/*",
+                    "Microsoft.EventGrid/eventSubscriptions/*",
                     "Microsoft.KeyVault/vaults/*",
                     "Microsoft.Resources/deployments/*",
                     "Microsoft.Resources/subscriptions/resourceGroups/read",
