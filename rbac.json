@@ -16,7 +16,8 @@
                     "Microsoft.Sql/servers/databases/*",
                     "Microsoft.Storage/storageAccounts/*",
                     "Microsoft.Web/sites/*",
-                    "Microsoft.Sql/servers/*"
+                    "Microsoft.Sql/servers/*",
+                    "Microsoft.EventGrid/systemTopics/*"
                 ],
     "NotActions":  [
 
