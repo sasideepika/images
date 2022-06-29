@@ -32,6 +32,10 @@
 				    "field": "type",
 				    "like": "Microsoft.Sql/servers/databases/*"
 				    },
+					{
+						"field": "type",
+						"like": "Microsoft.Sql/servers/*"
+					  },
                     {
 				    "field": "type",
 				    "like": "Microsoft.Storage/storageAccounts/*"
@@ -42,7 +46,7 @@
 				    },
                     {
 				    "field": "type",
-				    "in": ["microsoft.alertsmanagement/smartDetectorAlertRules", "Microsoft.CognitiveServices/accounts", "microsoft.insights/actiongroups", "Microsoft.Insights/components", "Microsoft.KeyVault/vaults", "Microsoft.ServiceBus/namespaces", "Microsoft.Sql/servers/databases", "Microsoft.Storage/storageAccounts", "Microsoft.Web/sites"]
+				    "in": ["microsoft.alertsmanagement/smartDetectorAlertRules", "Microsoft.CognitiveServices/accounts", "microsoft.insights/actiongroups", "Microsoft.Insights/components", "Microsoft.KeyVault/vaults", "Microsoft.ServiceBus/namespaces", "Microsoft.Sql/servers/databases","Microsoft.Sql/servers/*", "Microsoft.Storage/storageAccounts", "Microsoft.Web/sites"]
 				    }
                 ]
 			}
