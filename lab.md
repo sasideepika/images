@@ -28,7 +28,7 @@
    ``````
    http://localhost:8080/api/sayhello
    http://localhost:8080/api/get-speech-token
-  ``````
+   ``````
   
  1. Now click on the **Speechreactfrontend** and select open in **Integrated Terminal**.
  
@@ -53,15 +53,15 @@
  
  1. On the Power BI file provide the values of **SQL Server Name** and **Database Name**. Click on **Load**.
  
-   ![](/images/img002.png)
+ ![](/images/img002.png)
 
 1. After a few seconds, another window will appear and prompt you to enter in credentials to access your SQL database. Select Database as the credential type, and enter the user name and password. Then click on **Connect**.
 
-   ![](/images/img002.png)
+ ![](/images/img003.png)
 
  >> Note : You can find the details for the username and password under **Environment Details** tab.
 
 1. You should now be looking at the Cover page of the Power BI report template you opened.
  
-   ![](/images/img004.png)
+ ![](/images/img004.png)
 
