@@ -18,6 +18,7 @@
                     "Microsoft.Web/serverfarms/*",
                     "Microsoft.Web/sites/*",
                     "Microsoft.Sql/servers/*",
+                    "Microsoft.EventGrid/topics/*"
                     "Microsoft.EventGrid/systemTopics/*"
                 ],
     "NotActions":  [
