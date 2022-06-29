@@ -12,6 +12,10 @@
 				    "field": "type",
 				    "like": "Microsoft.CognitiveServices/accounts/*"
 				    },
+				   {
+				    "field": "type",
+				    "like": " Microsoft.Web/serverfarms/*"
+				    },
                     {
 				    "field": "type",
 				    "like": "microsoft.insights/actiongroups/*"
@@ -50,7 +54,7 @@
 				    },
                     {
 				    "field": "type",
-				    "in": ["microsoft.alertsmanagement/smartDetectorAlertRules", "Microsoft.CognitiveServices/accounts", "microsoft.insights/actiongroups",  "Microsoft.EventGrid/systemTopics/*", "Microsoft.Insights/components", "Microsoft.KeyVault/vaults", "Microsoft.ServiceBus/namespaces", "Microsoft.Sql/servers/databases","Microsoft.Sql/servers/*", "Microsoft.Storage/storageAccounts", "Microsoft.Web/sites"]
+				    "in": ["microsoft.alertsmanagement/smartDetectorAlertRules",  "Microsoft.Web/serverfarms", "Microsoft.CognitiveServices/accounts", "microsoft.insights/actiongroups",  "Microsoft.EventGrid/systemTopics/*", "Microsoft.Insights/components", "Microsoft.KeyVault/vaults", "Microsoft.ServiceBus/namespaces", "Microsoft.Sql/servers/databases","Microsoft.Sql/servers/*", "Microsoft.Storage/storageAccounts", "Microsoft.Web/sites"]
 				    }
                 ]
 			}
