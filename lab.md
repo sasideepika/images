@@ -2,7 +2,7 @@
 
 ![](/images/img001.png)
 
-### Getting started
+## Getting started
 
 1. Once the VM is provisioned, open the **Visual Studio Code**.
 
@@ -64,4 +64,6 @@
 1. You should now be looking at the Cover page of the Power BI report template you opened.
  
    ![](/images/img004.png)
+   
+ You have completed the lab Successfully
 
