@@ -56,7 +56,7 @@
 						},
 						{
 							"field": "type",
-							"in": ["microsoft.alertsmanagement/smartDetectorAlertRules", "Microsoft.EventGrid/topics", "Microsoft.Web/serverfarms", "Microsoft.CognitiveServices/accounts", "microsoft.insights/actiongroups", "Microsoft.EventGrid/systemTopics", "Microsoft.Insights/components", "Microsoft.KeyVault/vaults", "Microsoft.ServiceBus/namespaces", "Microsoft.Sql/servers/databases", "Microsoft.Sql/servers/*", "Microsoft.Storage/storageAccounts", "Microsoft.Web/sites"]
+							"in": ["microsoft.alertsmanagement/smartDetectorAlertRules", "Microsoft.EventGrid/topics",  "Microsoft.CognitiveServices/accounts", "Microsoft.Web/serverfarms", "microsoft.insights/actiongroups", "Microsoft.EventGrid/systemTopics", "Microsoft.Insights/components", "Microsoft.KeyVault/vaults", "Microsoft.ServiceBus/namespaces", "Microsoft.Sql/servers/databases", "Microsoft.Sql/servers/*", "Microsoft.Storage/storageAccounts", "Microsoft.Web/sites"]
 						}
 					]
 				}
@@ -81,7 +81,7 @@
                   {
                     "not": {
                       "field": "Microsoft.Sql/servers/databases/requestedServiceObjectiveName",
-                      "in": [ "Basic" ]
+                      "in": [ "GP_Gen5_2", "Basic" ]
                     }
                   }
                 ]
