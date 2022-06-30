@@ -53,7 +53,10 @@
  
  1. On the Power BI file provide the values of **SQL Server Name** and **Database Name**. Click on **Load**.
  
+    ![](/images/img006.png)
+    
     ![](/images/img002.png)
+
 
 1. After a few seconds, another window will appear and prompt you to enter in credentials to access your SQL database. Select Database as the credential type, and enter the user name and password. Then click on **Connect**.
 
@@ -65,5 +68,5 @@
  
    ![](/images/img004.png)
    
- You have completed the lab Successfully
+ ## Congratulations!! You have completed the lab Successfully
 
