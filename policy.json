@@ -83,30 +83,6 @@
 					}
 				]
 			},
-			{
-				"allof": [{
-						"field": "type",
-						"equals": "Microsoft.sql/databases"
-					},
-					{
-						"source": "action",
-						"equals": "Microsoft.sql/databases/write"
-					},
-					{
-						"not": {
-							"allof": [{
-									"field": "Microsoft.Sql/servers/databases/edition",
-									"in": ["Basic"]
-								},
-								{
-									"field": "Microsoft.Sql/servers/databases/requestedServiceObjectiveName",
-									"in": ["Basic"]
-								}
-							]
-						}
-					}
-				]
-			},
 
 			{
 				"allOf": [{
