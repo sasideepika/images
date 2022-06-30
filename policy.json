@@ -81,7 +81,7 @@
                   {
                     "not": {
                       "field": "Microsoft.Sql/servers/databases/requestedServiceObjectiveName",
-                      "in": [ "GP_Gen5_2", "Basic" ]
+                      "in": [ "Basic" ]
                     }
                   }
                 ]
