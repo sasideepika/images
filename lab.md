@@ -45,7 +45,7 @@
  
  1. Open a browser and go to **http://localhost:3000** to access the app. Click on the microphone icon on the web page and start talking. You should see transcription displayed on the web page in real-time.
  
- ## Accessing the PowerBI Report
+ ## Accessing the Power BI Report
  
  1. On the LabVM, Double click on the .pbit on the desktop to open the **PowerBI** Files.
  
