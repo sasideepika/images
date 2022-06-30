@@ -72,17 +72,7 @@
 					}
 				]
 			},
-			{
-				"allof": [{
-						"field": "type",
-						"equals": "Microsoft.sql/servers"
-					},
-					{
-						"source": "action",
-						"equals": "Microsoft.sql/servers/write"
-					}
-				]
-			},
+			
 
 			{
 				"allOf": [{
