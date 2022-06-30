@@ -84,7 +84,7 @@
           {
             "not": {
               "field": "Microsoft.Sql/servers/databases/requestedServiceObjectiveName",
-              "in": [ "Basic", "System2" ]
+              "in": [ "Basic"]
             }
           }
         ]
