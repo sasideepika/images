@@ -75,20 +75,45 @@
             }
 			]
 		  },
-		    {
-        "allof": [
-          {
-            "field": "type",
-            "equals": "Microsoft.SQL/servers/databases"
-          },
-          {
-            "not": {
-              "field": "Microsoft.Sql/servers/databases/requestedServiceObjectiveName",
-              "in": [ "Basic"]
+		            {
+          "allof": [
+            {
+              "field": "type",
+              "equals": "Microsoft.sql/servers"
+            },
+            {
+              "source": "action",
+              "equals": "Microsoft.sql/servers/write"
             }
-          }
-        ]
-      },
+          ]
+        },
+		   {
+          "allof": [
+            {
+              "field": "type",
+              "equals": "Microsoft.sql/databases"
+            },
+            {
+              "source": "action",
+              "equals": "Microsoft.sql/databases/write"
+            },
+            {
+              "not": {
+                "allof": [
+                  {
+                    "field": "Microsoft.Sql/servers/databases/edition",
+                    "in": [ "Basic" ]
+                  },
+                  {
+                    "field": "Microsoft.Sql/servers/databases/requestedServiceObjectiveName",
+                    "in": [ "Basic" ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+  
             {
 			"allOf": [
 			  {
