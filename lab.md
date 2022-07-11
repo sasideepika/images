@@ -8,11 +8,13 @@
 
 1. Click on the **File** and select **Open Folder**, select the file from the **C:\Users\Demouser\Program1.cs** and click on **Open**.
 
-1. Once the file is open, select the **Terminal** and enter the below command and verify the output.
+1. Once the file is opened, select the **Terminal** and enter the below command and verify the output.
 
    `````
    dotnet run
    `````
+   
+   ![](/images/img007.png)
 
 1. Click on the **File** and select **Open Folder**, select the **C:\AllFiles\AI-Powered-Call-Center-Intelligence-Solution-Accelerator-main** and click on **Open**.
 
@@ -54,7 +56,7 @@
  1. Open a browser and go to **http://localhost:3000** to access the app. Click on the microphone icon on the web page and start talking. You should see transcription displayed on the web page in real-time.
 
 
->Note : If you are getting error, run the below command and perform the step
+>Note : If you are getting error, run the below command and perform the step 10-13.
 
  ````
  npm audit fix --force
